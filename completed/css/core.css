@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'CaviarDreamsItalic';
+    src: url('../fonts/caviar/CaviarDreamsItalic-webfont.eot');
+    src: url('../fonts/caviar/CaviarDreamsItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/caviar/CaviarDreamsItalic-webfont.woff') format('woff'),
+         url('../fonts/caviar/CaviarDreamsItalic-webfont.ttf') format('truetype'),
+         url('../fonts/caviar/CaviarDreamsItalic-webfont.svg#CaviarDreamsItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'CaviarDreamsBoldItalic';
+    src: url('../fonts/caviar/CaviarDreams_BoldItalic-webfont.eot');
+    src: url('../fonts/caviar/CaviarDreams_BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/caviar/CaviarDreams_BoldItalic-webfont.woff') format('woff'),
+         url('../fonts/caviar/CaviarDreams_BoldItalic-webfont.ttf') format('truetype'),
+         url('../fonts/caviar/CaviarDreams_BoldItalic-webfont.svg#CaviarDreamsBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'CaviarDreamsRegular';
+    src: url('../fonts/caviar/CaviarDreams-webfont.eot');
+    src: url('../fonts/caviar/CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/caviar/CaviarDreams-webfont.woff') format('woff'),
+         url('../fonts/caviar/CaviarDreams-webfont.ttf') format('truetype'),
+         url('../fonts/caviar/CaviarDreams-webfont.svg#CaviarDreamsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'CaviarDreamsBold';
+    src: url('../fonts/caviar/CaviarDreams_Bold-webfont.eot');
+    src: url('../fonts/caviar/CaviarDreams_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/caviar/CaviarDreams_Bold-webfont.woff') format('woff'),
+         url('../fonts/caviar/CaviarDreams_Bold-webfont.ttf') format('truetype'),
+         url('../fonts/caviar/CaviarDreams_Bold-webfont.svg#CaviarDreamsBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+	margin:0;
+	padding:0;
+	border:none;
+	outline:none;
+	color:#333;
+}
+body {
+	text-align:center;
+	padding:20px 0;
+	font-size:13px;
+	font-family:CaviarDreamsRegular, Sans-serif;
+}
+#wrapper {
+	width:625px;
+	margin:0 auto;
+	text-align:left;
+}
+#gallery {
+	float: left;
+	position: relative;
+	height: 347px;
+	width: 625px;
+	overflow:hidden;
+	background: #eaeae9;
+}
+#gallery-photos,#gallery-navigation,.gallery-caption {
+	position:absolute;
+}
+#gallery-photos {
+	top:0;
+	left:0;
+}
+#gallery-navigation {
+	z-index:9999;
+	top:317px;
+	right:20px;
+	text-align:right;
+}
+#gallery-navigation a {
+	display:inline-block;
+	height:13px;
+	width:13px;
+	margin-left:4px;
+	background-image:url(/images/structure/gallery-buttons.png);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	cursor:pointer;
+}
+#gallery-navigation a:hover {
+	background-position:-13px 0;
+}
+#gallery-navigation a.active,#gallery-navigation a.active:hover {
+	background-position:-26px 0;
+}
+.gallery-caption {
+	z-index:1;
+	top:347px;
+	left: 0;
+	width:625px;
+	padding:15px 0;
+	background:url(/images/structure/transparent.png) repeat 0 0;
+}
+.gallery-caption-content h2 {
+	font-size:16px;
+	padding-bottom:7px;
+	font-family:CaviarDreamsBoldItalic, Sans-serif;
+	text-transform:uppercase;
+}
+.gallery-caption-content {
+	width:425px;
+	padding:0 0 14px 25px;
+}
+.gallery-caption-content * {
+	color:#fff;
+}
+
+
+
+
+
+
